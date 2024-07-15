@@ -1,4 +1,4 @@
-# data-dictionaries
+# tos2ca-data-dictionaries
 Data dictionary files for the NASA AIST TOS2CA project. 
 
 

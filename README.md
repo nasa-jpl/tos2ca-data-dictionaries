@@ -9,7 +9,7 @@ Data dictionary files for the NASA AIST TOS2CA project.
 These data dictionaries contain information about what data products are offered in the Phenomenon Definition (```tos2ca-phdef-dictionary.json```) and Data Curation (```tosca-data-colletion-dictionary.json```) phases of TOS2CA.  
 
 These dictionaries are in JSON format, using key:value pairs.  They include information about the datasets, such as:
-- S3 locaiton
+- S3 location
 - Start and end dates of the data sets
 - Variable and coordinate names
 - Names of the curator or reader to handle the dataset

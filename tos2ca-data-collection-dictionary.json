@@ -1,0 +1,434 @@
+{
+    "ASCATB-L2-25km": {
+        "daac": "PO.DAAC",
+        "startDate": "2012-10-29",
+        "endDate": null,
+        "timeStep": "partial day",
+        "format": "netCDF-4",
+        "productInfo": "https://podaac.jpl.nasa.gov/dataset/ASCATB-L2-25km",
+        "fullName": "MetOp-B ASCAT Level 2 25.0km Ocean Surface Wind Vectors in Full Orbit Swath",
+        "aws": 1,
+        "dataSetId": "C2075141559-POCLOUD",
+        "agent": "S3",
+        "location": "s3://podaac-ops-cumulus-protected/ASCATB-L2-25km/",
+        "variables": [
+            "wind_speed",
+            "wind_dir"
+        ],
+        "variableNames": {
+            "wind_speed": "wind speed at 10m",
+            "wind_dir": "wind direction at 10m"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "wind_speed": "m s-1",
+            "wind_dir": "degree"
+        },
+        "curator": null
+    },
+    "ASCATC-L2-25km": {
+        "daac": "PO.DAAC",
+        "startDate": "2012-10-29",
+        "endDate": null,
+        "timeStep": "partial day",
+        "format": "netCDF-4",
+        "productInfo": "https://podaac.jpl.nasa.gov/dataset/ASCATC-L2-25km",
+        "fullName": "MetOp-C ASCAT Level 2 25.0km Ocean Surface Wind Vectors in Full Orbit Swath",
+        "aws": 1,
+        "dataSetId": "C2075141638-POCLOUD",
+        "agent": "S3",
+        "location": "s3://podaac-ops-cumulus-protected/ASCATC-L2-25km/",
+        "variables": [
+            "wind_speed",
+            "wind_dir"
+        ],
+        "variableNames": {
+            "wind_speed": "wind speed at 10m",
+            "wind_dir": "wind direction at 10m"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "wind_speed": "m s-1",
+            "wind_dir": "degree"
+        },
+        "curator": "null"
+    },
+    "OSCAR_L4_OC_FINAL_V2.0": {
+        "daac": "PO.DAAC",
+        "startDate": "1993-01-01",
+        "endDate": "2021-01-01",
+        "timeStep": "daily",
+        "format": "netCDF-4",
+        "productInfo": "https://podaac.jpl.nasa.gov/dataset/OSCAR_L4_OC_FINAL_V2.0",
+        "fullName": "Ocean Surface Current Analyses Real-time (OSCAR) Surface Currents - Final 0.25 Degree (Version 2.0)",
+        "aws": 1,
+        "dataSetId": "C2098858642-POCLOUD",
+        "agent": "S3",
+        "location": "s3://podaac-ops-cumulus-protected/OSCAR_L4_OC_FINAL_V2.0/",
+        "variables": [
+            "ug",
+            "vg",
+            "v",
+            "u"
+        ],
+        "variableNames": {
+            "ug": "zonal geostrophic surface current",
+            "vg": "meridional geostrophic surface current",
+            "v": "meridional total surface current",
+            "u": "zonal total surface current"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "ug": "m s-1",
+            "vg": "m s-1",
+            "v": "m s-1",
+            "u": "m s-1"
+        },
+        "curator": null
+    },
+    "ECCO_L4_ATM_STATE_05DEG_DAILY_V4R4": {
+        "daac": "PO.DAAC",
+        "startDate": "1992-01-01",
+        "endDate": "2018-01-01",
+        "timeStep": "daily",
+        "format": "netCDF-4",
+        "productInfo": "https://podaac.jpl.nasa.gov/dataset/ECCO_L4_ATM_STATE_05DEG_DAILY_V4R4",
+        "fullName": "ECCO Atmosphere Surface Temperature, Humidity, Wind, and Pressure - Daily Mean 0.5 Degree (Version 4 Release 4)",
+        "aws": 1,
+        "dataSetId": "C1990404801-POCLOUD",
+        "agent": "S3",
+        "location": "s3://podaac-ops-cumulus-protected/ECCO_L4_ATM_STATE_05DEG_DAILY_V4R4/",
+        "variables": [
+            "EXFatemp",
+            "EXFaqh",
+            "EXFpress",
+            "EXFwspee",
+            "EXFnwind",
+            "EXFewind"
+        ],
+        "variableNames": {
+            "EXFatemp": "Atmosphere surface (2 m) air temperature",
+            "EXFaqh": "Atmosphere surface (2 m) specific humidity",
+            "EXFpress": "Atmosphere surface pressure",
+            "EXFwspee": "Wind speed",
+            "EXFnwind": "Meridional (north-south) wind speed",
+            "EXFewind": "Zonal (east-west) wind speed"
+        },
+        "coordinateNames": {
+            "lat": "latitude",
+            "lon": "longitude",
+            "time": "time"
+        },
+        "units": {
+            "EXFatemp": "degrees K",
+            "EXFewind": "m s-1",
+            "EXFwspee": "m s-1",
+            "EXFnwind": "m s-1",
+            "EXFpress": "N m-2",
+            "EXFaqh": "kg kg-1"
+        },
+        "curator": "ecco_curator"
+    },
+    "M2TMNXLND_5.12.4": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "monthly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2TMNXLND_5.12.4/summary",
+        "fullName": "MERRA-2 tavgM_2d_lnd_Nx: 2d,Monthly mean,Time-Averaged,Single-Level,Assimilation,Land Surface Diagnostics V5.12.4 (M2TMNXLND)",
+        "aws": 1,
+        "datasetId": "M2TMNXLND_5.12.4",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2_MONTHLY/M2TMNXLND.5.12.4/",
+        "variables": [
+            "GWETPROF",
+            "GWETROOT",
+            "GWETTOP"
+        ],
+        "variableNames": {
+            "GWETPROF": "ave prof soil moisture",
+            "GWETROOT": "root zone soil wetness",
+            "GWETTOP": "surface soil wetness"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "GWETPROF": "1",
+            "GWETROOT": "1",
+            "GWETTOP": "1"
+        },
+        "curator": "merra2_curator"
+    },
+    "M2I1NXINT_5.12.4": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "hourly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2I1NXINT_5.12.4/summary",
+        "fullName": "MERRA-2 inst1_2d_int_Nx: 2d,1-Hourly,Instantaneous,Single-Level,Assimilation,Vertically Integrated Diagnostics V5.12.4 (M2I1NXINT)",
+        "aws": 1,
+        "dataSetId": "M2I1NXINT_5.12.4",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2/M2I1NXINT.5.12.4/",
+        "variables": [
+            "TQI",
+            "TQL",
+            "TQV"
+        ],
+        "variableNames": {
+            "TQI": "total precipitable ice water",
+            "TQL": "total precipitable liquid water",
+            "TQV": "total precipitable water vapor"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "TQI": "kg m-2",
+            "TQL": "kg m-2",
+            "TQV": "kg m-2"
+        },
+        "curator": "merra2_curator"
+    },
+    "M2I1NXLFO_5.12.4": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "hourly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2I1NXLFO_5.12.4/summary",
+        "fullName": "MERRA-2 inst1_2d_lfo_Nx: 2d,1-Hourly,Instantaneous,Single-Level,Assimilation,Land Surface Forcings V5.12.4",
+        "aws": 1,
+        "dataSetId": "M2I1NXLFO_5.12.4",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2/M2I1NXLFO.5.12.4/",
+        "variables": [
+            "TLML",
+            "HLML",
+            "QLML",
+            "SPEEDLML",
+            "PS"
+        ],
+        "variableNames": {
+            "TLML": "surface air temperature",
+            "HLML": "surface layer height",
+            "QLML": "surface specific humidity",
+            "SPEEDLML": "surface wind speed",
+            "PS": "surface pressure"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "TLML": "K",
+            "HLML": "m",
+            "QLML": "1",
+            "SPEEDLML": "m s-1",
+            "PS": "Pa"
+        },
+        "curator": "merra2_curator"
+    },
+    "M2IMNXLFO_5.12.4": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "monthly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2IMNXLFO_5.12.4/summary",
+        "fullName": "MERRA-2 instM_2d_lfo_Nx: 2d,Monthly mean,Instantaneous,Single-Level,Assimilation,Land Surface Forcings V5.12.4",
+        "aws": 1,
+        "dataSetId": "M2IMNXFLO_5.12.4",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2_MONTHLY/M2IMNXLFO.5.12.4/",
+        "variables": [
+            "TLML",
+            "HLML",
+            "QLML",
+            "SPEEDLML",
+            "PS"
+        ],
+        "variableNames": {
+            "TLML": "surface air temperature",
+            "HLML": "surface layer height",
+            "QLML": "surface specific humidity",
+            "SPEEDLML": "surface wind speed",
+            "PS": "surface pressure"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "TLML": "K",
+            "HLML": "m",
+            "QLML": "1",
+            "SPEEDLML": "m s-1",
+            "PS": "Pa"
+        },
+        "curator": "merra2_curator"
+    },
+    "M2T1NXSLV_5.12.4": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "hourly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2T1NXSLV_5.12.4/summary",
+        "fullName": "MERRA-2 tavg1_2d_slv_Nx: 2d,1-Hourly,Time-Averaged,Single-Level,Assimilation,Single-Level Diagnostics V5.12.4",
+        "aws": 1,
+        "dataSetId": "M2T1NXSLV_5.12.4",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2/M2T1NXSLV.5.12.4/",
+        "variables": [
+            "Q250",
+            "Q850",
+            "SLP",
+            "T10M",
+            "TQV",
+            "U250",
+            "U850",
+            "V250",
+            "V850"
+        ],
+        "variableNames": {
+            "Q250": "specific humidity at 250 hPa",
+            "Q850": "specific humidity at 850 hPa",
+            "SLP": "sea level pressure",
+            "T10M": "10-meter air pressure",
+            "TQV": "total precipitable water vapor",
+            "U250": "eastward wind at 250 hPa",
+            "U850": "eastward wind at 850 hPa",
+            "V250": "northward wind at 250 hPa",
+            "V850": "northward wind at 850 hPa"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "Q250": "kg kg-1",
+            "Q850": "kg kg-1",
+            "SLP": "Pa",
+            "T10M": "K",
+            "TQV": "kg m-2",
+            "U250": "m s-1",
+            "U850": "m s-1",
+            "V250": "m s-1",
+            "V850": "m s-1"
+        },
+        "curator": "merra2_curator"
+    },
+    "M2SMNXEDI_2": {
+        "daac": "GES-DISC",
+        "startDate": "1980-01-01",
+        "endDate": null,
+        "timeStep": "monthly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2SMNXEDI_2/summary",
+        "fullName": "MERRA-2 statM_2d_edi_Nx: 2d, Single-Level, Monthly Extremes Detection Indices V2",
+        "dataSetId": "C2531963170-GES_DISC",
+        "aws": 1,
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2_CLIM/M2SMNXEDI.2/",
+        "variables": [
+            "R90P",
+            "R95P",
+            "R99P"
+        ],
+        "variableNames": {
+            "R90P": "total precipitation from days > 90th percentile",
+            "R95P": "total precipitation from days > 95th percentile",
+            "R99P": "total precipitation from days > 99th percentile"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "R90P": "mm day-1",
+            "R95P": "mm day-1",
+            "R99P": "mm day-1"
+        },
+        "curator": "merra2_curator"
+    },
+    "GPM_3IMERGHH": {
+        "daac": "GES-DISC",
+        "startDate": "2000-06-01",
+        "endDate": "2023-07-31",
+        "timeStep": "half hourly",
+        "format": "HDF-5",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary",
+        "fullName": "GPM IMERG Final Precipitation L3 Half Hourly 0.1 degree x 0.1 degree V07",
+        "aws": 1,
+        "dataSetId": "GPM_3IMERGHH",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/GPM_L3/GPM_3IMERGHH.07/",
+        "variables": [
+            "precipitation"
+        ],
+        "variableNames": {
+            "precipitation": "complete merged microwave-infrared (gauge-adjusted) precipitation estimate"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "precipitation": "mm/hr"
+        },
+        "curator": "gpm_curator"
+    },    
+    "GPM_MERGIR": {
+        "daac": "GES-DISC",
+        "startDate": "1998-01-01",
+        "endDate": "2024-03-03",
+        "timeStep": "half hourly",
+        "format": "netCDF-4",
+        "productInfo": "https://disc.gsfc.nasa.gov/datasets/GPM_MERGIR_1/summary",
+        "fullName": "NCEP/CPC L3 Half Hourly 4km Global (60S - 60N) Merged IR V1 (GPM_MERGIR)",
+        "aws": 1,
+        "dataSetId": "GPM_MERGIR_1",
+        "agent": "S3",
+        "location": "s3://gesdisc-cumulus-prod-protected/MERGED_IR/GPM_MERGIR.1/",
+        "variables": [
+            "Tb"
+        ],
+        "variableNames": {
+            "Tb": "brightness_temperature"
+        },
+        "coordinateNames": {
+            "lat": "lat",
+            "lon": "lon",
+            "time": "time"
+        },
+        "units": {
+            "Tb": "K"
+        },
+        "curator": "gpm_curator"
+    }
+}

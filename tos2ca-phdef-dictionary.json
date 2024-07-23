@@ -27,7 +27,7 @@
         },
         "reader": "gpm_reader"
     },
-    "GPM_3IMERGDF": {
+    "GPM_3IMERGHH": {
         "daac": "GES-DISC",
         "startDate": "2000-06-01",
         "endDate": "2023-12-01",
@@ -38,7 +38,7 @@
         "aws": 1,
         "dataSetId": "GPM_3IMERGDF_07",
         "agent": "S3",
-        "location": "s3://gesdisc-cumulus-prod-protected/GPM_L3/GPM_3IMERGDF.07/",
+        "location": "s3://gesdisc-cumulus-prod-protected/GPM_L3/GPM_3IMERGHH.07/",
         "variables": [
             "precipitation"
         ],

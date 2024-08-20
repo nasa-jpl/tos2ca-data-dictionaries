@@ -4,6 +4,8 @@ Data dictionary files for the NASA AIST TOS2CA project.
 
 [![Language](https://img.shields.io/badge/json-2022.12-blue)](#)
 
+The ``data-dictionaries`` library is part of the of the TOS2CA Project. For more information, visit the TOS2CA website at [https://nasa-jpl.github.io/tos2ca-documentation/](https://nasa-jpl.github.io/tos2ca-documentation/).
+
 ## Overview
 
 These data dictionaries contain information about what data products are offered in the Phenomenon Definition (```tos2ca-phdef-dictionary.json```) and Data Curation (```tosca-data-colletion-dictionary.json```) phases of TOS2CA.  

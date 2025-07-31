@@ -96,7 +96,7 @@
             "v": "m s-1",
             "u": "m s-1"
         },
-        "curator": null
+        "curator": "oscar_curator"
     },
     "ECCO_L4_ATM_STATE_05DEG_DAILY_V4R4": {
         "daac": "PO.DAAC",

@@ -198,7 +198,7 @@
         "daac": "PO.DAAC",
         "startDate": "1992-10-01",
         "endDate": "2022-12-22",
-        "timeStep": "daily",
+        "timeStep": "weekly",
         "format": "netCDF-3",
         "productInfo": "https://podaac.jpl.nasa.gov/dataset/SEA_SURFACE_HEIGHT_ALT_GRIDS_L4_2SATS_5DAY_6THDEG_V_JPL2205",
         "fullName": "MEaSUREs Gridded Sea Surface Height Anomalies Version 2205",
@@ -226,7 +226,7 @@
         "daac": "PO.DAAC",
         "startDate": "2011-08-24",
         "endDate": "2022-08-06",
-        "timeStep": "daily",
+        "timeStep": "weekly",
         "format": "netCDF-4",
         "productInfo": "https://podaac.jpl.nasa.gov/dataset/OISSS_L4_multimission_7day_v1",
         "fullName": "Multi-Mission Optimally Interpolated Sea Surface Salinity Global Dataset V1",
@@ -424,7 +424,7 @@
         "daac": "GES-DISC",
         "startDate": "1980-01-01",
         "endDate": "2024-01-31",
-        "timeStep": "daily",
+        "timeStep": "monthly",
         "format": "netCDF-4",
         "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2IMNXASM_5.12.4/summary",
         "fullName": "MERRA-2 instM_2d_asm_Nx: 2d,Monthly mean,Single-Level,Assimilation,Single-Level Diagnostics 0.625 x 0.5 degree V5.12.4 (M2IMNXASM) at GES DISC",
@@ -494,34 +494,6 @@
         },
         "reader": "merra2_reader"
     },
-    "M2I3NVCHM_5.12.4": {
-        "daac": "GES-DISC",
-        "startDate": "1980-01-01",
-        "endDate": "2024-05-01",
-        "timeStep": "daily",
-        "format": "netCDF-4",
-        "productInfo": "https://disc.gsfc.nasa.gov/datasets/M2I3NVCHM_5.12.4/summary",
-        "fullName": "MERRA-2 inst3_3d_chm_Nv: 3d,3-Hourly,Instantaneous,Model-Level,Assimilation,Carbon Monoxide and Ozone Mixing Ratio 0.625 x 0.5 degree V5.12.4 (M2I3NVCHM) at GES DISC",
-        "dataSetId": "C1276812901-GES_DISC",
-        "aws": 1,
-        "agent": "S3",
-        "location": "s3://gesdisc-cumulus-prod-protected/MERRA2/M2I3NVCHM.5.12.4/",
-        "variables": [
-            "CO"
-        ],
-        "variableNames": {
-            "AODana": "carbon monoxide (all sources)"
-        },
-        "coordinateNames": {
-            "lat": "lat",
-            "lon": "lon",
-            "time": "time"
-        },
-        "units": {
-            "CO": "mol mol-1"
-        },
-        "reader": "merra2_reader"
-    },
     "M2SMNXEDI_2": {
         "daac": "GES-DISC",
         "startDate": "1980-01-01",
@@ -554,6 +526,6 @@
             "R95P": "mm day-1",
             "R99P": "mm day-1"
         },
-        "reader": "m2s_reader"
+        "reader": "merra2_reader"
     }
 }

@@ -378,7 +378,7 @@
     "GPM_3IMERGHH": {
         "daac": "GES-DISC",
         "startDate": "2000-06-01",
-        "endDate": "2023-07-31",
+        "endDate": "2025-04-30",
         "timeStep": "half hourly",
         "format": "HDF-5",
         "productInfo": "https://disc.gsfc.nasa.gov/datasets/GPM_3IMERGHH_07/summary",
@@ -430,5 +430,48 @@
             "Tb": "K"
         },
         "curator": "gpm_curator"
+    },
+    "HRRR": {
+        "daac": null,
+        "startDate": "2014-07-30",
+        "endDate": "2025-08-31",
+        "timeStep": "hourly",
+        "format": "grib",
+        "productInfo": "https://registry.opendata.aws/noaa-hrrr-pds/",
+        "fullName": "NOAA High-Resolution Rapid Refresh (HRRR)",
+        "aws": 1,
+        "dataSetId": null,
+        "agent": "S3",
+        "location": "s3://noaa-hrrr-bdp-pds/",
+        "variables": [
+            "GUST",
+            "CNWAT",
+            "FRICV",
+            "LHTFL",
+            "CAPE",
+            "CIN"
+        ],
+        "variableNames": {
+            "GUST": "wind gust",
+            "CNWAT": "plant canopy surface water",
+            "FRICV": "frictional velocity",
+            "LHTFL": "latent heat net flux",
+            "CAPE": "convective available potential energy",
+            "CIN": "convective inhibition"
+        },
+        "coordinateNames": {
+            "lat": "latitude",
+            "lon": "longitude",
+            "time": "time"
+        },
+        "units": {
+            "GUST": "m/s",
+            "CNWAT": "kg/m2",
+            "FRICV": "m/s",
+            "LHTFL": "W/m2",
+            "CAPE": "J/kg",
+            "CIN": "J/kg"
+        },
+        "curator": "hrrr_curator"
     }
 }

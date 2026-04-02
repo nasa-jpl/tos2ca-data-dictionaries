@@ -8,8 +8,6 @@ Data dictionary files for the NASA AIST TOS2CA project.
 
 [![Validate JSON](https://github.com/nasa-jpl/tos2ca-data-dictionaries/actions/workflows/validate_json.yaml/badge.svg)](https://github.com/nasa-jpl/tos2ca-data-dictionaries/actions/workflows/validate_json.yaml)
 
-test
-
 The ``data-dictionaries`` library is part of the of the TOS2CA Project. For more information, visit the TOS2CA website at [https://nasa-jpl.github.io/tos2ca-documentation/](https://nasa-jpl.github.io/tos2ca-documentation/).
 
 ## Overview

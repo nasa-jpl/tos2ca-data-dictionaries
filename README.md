@@ -53,7 +53,7 @@ The ```dictionary-shema.json``` files shows how the JSON dictionary files should
             "time": ""
         },
         "units": {
-            "var1": "",
+            "var1": ""
         },
         "curator": ""
     }

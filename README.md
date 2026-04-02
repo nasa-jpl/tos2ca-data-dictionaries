@@ -6,6 +6,9 @@ Data dictionary files for the NASA AIST TOS2CA project.
 
 [![Language](https://img.shields.io/badge/json-2022.12-blue)](#) 
 
+[![Validate JSON](https://github.com/nasa-jpl/tos2ca-data-dictionaries/actions/workflows/validate_json.yaml/badge.svg)](https://github.com/nasa-jpl/tos2ca-data-dictionaries/actions/workflows/validate_json.yaml)
+
+
 The ``data-dictionaries`` library is part of the of the TOS2CA Project. For more information, visit the TOS2CA website at [https://nasa-jpl.github.io/tos2ca-documentation/](https://nasa-jpl.github.io/tos2ca-documentation/).
 
 ## Overview
@@ -23,7 +26,8 @@ For varabiles that do not apply, use can use ```null``` as the value for the key
 
 These are examples only.  You will need to customize these data dictionaries for the data sets you would like to use.  It would also be a good idea to create a cron job or Lambda service to update the end data of any data sets that are actively producing new data.
 
-## Format
+# Schema
+The ```dictionary-shema.json``` files shows how the JSON dictionary files should be structured.  Below is a quick view of that schema. 
 
 ```json
     "data-short-name": {

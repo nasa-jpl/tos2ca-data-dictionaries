@@ -1,0 +1,13 @@
+name: JSON Schema Validation
+on: [push, pull_request]
+
+jobs:
+  json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON against Schema
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: ./dictionary-schema.json
+          json_exclude_regex: "dictionary-schema.json"

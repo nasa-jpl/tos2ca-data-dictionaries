@@ -1,13 +1,12 @@
 {
-  "$schema": "https://json-schema.org/draft-07/schema#",
   "type": "object",
   "additionalProperties": {
     "type": "object",
-    "required": ["daac", "startDate", "endDate", "variables"],
+    "required": ["daac", "startDate", "variables"],
     "properties": {
-      "daac": { "type": "string" },
-      "startDate": { "type": "string", "format": "date" },
-      "endDate": { "type": "string", "format": "date" },
+      "daac": { "type": ["string", "null"] },
+      "startDate": { "type": "string" },
+      "endDate": { "type": ["string", "null"] },
       "variables": { "type": "array", "items": { "type": "string" } }
     }
   }

@@ -23,7 +23,8 @@ For varabiles that do not apply, use can use ```null``` as the value for the key
 
 These are examples only.  You will need to customize these data dictionaries for the data sets you would like to use.  It would also be a good idea to create a cron job or Lambda service to update the end data of any data sets that are actively producing new data.
 
-## Format
+# Schema
+The ```dictionary-shema.json``` files shows how the JSON dictionary files should be structured.  Below is a quick view of that schema. 
 
 ```json
     "data-short-name": {

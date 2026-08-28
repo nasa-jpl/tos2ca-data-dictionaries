@@ -2,7 +2,7 @@
 
 Data dictionary files for the NASA AIST TOS2CA project. 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17664955.svg)](https://doi.org/10.5281/zenodo.17664955)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22149467.svg)](https://doi.org/10.5281/zenodo.22149467)
 
 [![Language](https://img.shields.io/badge/json-2022.12-blue)](#) 
 
@@ -16,12 +16,12 @@ These data dictionaries contain information about what data products are offered
 
 These dictionaries are in JSON format, using key:value pairs.  They include information about the datasets, such as:
 
-- S3 locaiton
+- S3 location
 - Start and end dates of the data sets
 - Variable and coordinate names
 - Names of the curator or reader to handle the dataset
 
-For varabiles that do not apply, use can use ```null``` as the value for the key.
+For variables that do not apply, use can use ```null``` as the value for the key.
 
 These are examples only.  You will need to customize these data dictionaries for the data sets you would like to use.  It would also be a good idea to create a cron job or Lambda service to update the end data of any data sets that are actively producing new data.
 
